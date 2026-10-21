@@ -4,7 +4,7 @@ go 1.25
 
 require (
 	github.com/caddyserver/caddy/v2 v2.10.2
-	github.com/libdns/connbyte v0.0.0-00010101000000-000000000000
+	github.com/libdns/connbyte v0.1.0
 )
 
 require (
@@ -41,5 +41,3 @@ require (
 	golang.org/x/tools v0.34.0 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
 )
-
-replace github.com/libdns/connbyte => ../libdns-connbyte
